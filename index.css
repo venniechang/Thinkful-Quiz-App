@@ -1,56 +1,94 @@
+.title{
+	font-family: 'Unica One', cursive;
+}
+
 body {
-	
-	font-family: 'Arial', sans-serif;
-	font-size: 25px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
 	color: white;
 	box-sizing: border-box;
 	padding: 10px;
 	margin: 0.5;
 	text-align: center;
-	background-color: black;
-
-	/*background-color:#556;
-	background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-	linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-	linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-	linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-	linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), 
-	linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-	background-size:80px 140px;
-	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-*/
+	background-color: #666666;
 }
 
 .questions {
    width: 650px;
-   height: 450px;
+   height: 300px;
    text-align: center;
    padding: 0px;
    display: inline-block;
    color: white;
+   font-family: 'Quicksand', sans-serif;
 }
 
 .start-page {
 	font-family: "Verdana", sans-serif;
 	color: white;
-
 }
 
 .quiz {
 	color: black;
 	display: none;
-	font-family: "Arial", sans-serif;
-
+	font-family: 'Quicksand', sans-serif;
 }
 
 .feedback {
 	display: inline-block;
 	display: none;
 	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
 .results {
-
 	display: none;
+}
 
+.feedback-text{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.button {
+	border: 1px solid white;
+	background-color: #666666;
+	color: white;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.intro-begin {
+	border: 1px solid white;
+	background-color: #666666;
+	color: white;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.question-submit {
+	border: 1px solid white;
+	background-color: #666666;
+	color: white;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.next-question {
+	border: 1px solid white;
+	background-color: #666666;
+	color: white;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
