@@ -97,6 +97,7 @@ const QUESTIONS = [
 	function beginQuiz() {
 			$('.quiz').show();
 			$('.intro-begin').hide();
+			$('.basketball-image').hide();
 			let tempQuestion = app.questions[app.currentQuestion];
 			updateQuestion(tempQuestion);
 	}
