@@ -14,7 +14,6 @@ body {
 }
 
 .questions {
-   width: 650px;
    height: 300px;
    text-align: center;
    padding: 0px;
@@ -106,4 +105,5 @@ body {
 
 .basketball-image {
 	padding-bottom: 15px;
+	width: 100%;
 }
