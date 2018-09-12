@@ -105,5 +105,5 @@ body {
 
 .basketball-image {
 	padding-bottom: 15px;
-	width: 100%;
+	max-width: 100%;
 }
