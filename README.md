@@ -1,7 +1,7 @@
 <h1>Basketball Quiz</h1>
 <p>A simple application created with HTML, CSS, and Javascript.
 
-![homepage](https://i.imgur.com/EhHW22J.jpg)
+![homepage](https://i.imgur.com/kufZ4Nb.png)
 
 <h2>What is Basketball Quiz?</h2>
 <p>A quiz application that tests your knowledge in the game of Basketball.</p>
